@@ -37,7 +37,7 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
 1. **Clone Repository**
    ```
    git clone https://github.com/username/laravel-crud-pesan.git
-   cd laravel-crud-pesan
+   cd microteaching
    ```
 2. **Install Composer**
    ```
@@ -89,8 +89,6 @@ Berikut adalah daftar routing utama yang digunakan pada aplikasi ini:
 ![PHP](https://img.shields.io/badge/PHP-8.0.30-777bb3?logo=php&logoColor=white)
 ![Status](https://img.shields.io/badge/Project-Selesai-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-
 
 ## 📄 Lisensi
 Project ini open-source dan bebas digunakan untuk pembelajaran.
