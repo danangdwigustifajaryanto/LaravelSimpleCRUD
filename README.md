@@ -49,7 +49,7 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
    ```
    **Lalu edit file .env**
     ```
-   DB_DATABASE=microteaching
+   DB_DATABASE=laravel_crud
    DB_USERNAME=root
    DB_PASSWORD=
    ```
