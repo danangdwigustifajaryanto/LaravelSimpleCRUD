@@ -15,6 +15,7 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
 - ✅ Menghapus pesan (Delete)
 - 🧠 Menggunakan Blade Template (Dengan CSS dan JS Sederhana)
 - 🔧 Struktur rapi mengikuti pola MVC Laravel
+- 🌓Dark Mode
 
 ---
 
