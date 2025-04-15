@@ -43,21 +43,29 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
    ```
    composer install
    ```
-3. **Edit file .env**
+3. **Buat Database di MYSQL/etc.**
+   ```
+   CREATE DATABASE laravel_crud;
+   ```
+4. **Buat Database dan edit .env**
     ```
    DB_DATABASE=laravel_crud
    DB_USERNAME=root
    DB_PASSWORD=
    ```
-4. **Generate APP Key**
+5. **Refresh Project**
    ```
-   php artisan key:generate
+   php artisan config:clear
+   php artisan cache:clear
+   php artisan route:clear
+   php artisan view:clear
+   php artisan optimize
    ```
-5. **Migrasi Database**
+6. **Migrasi Database**
    ```
    php artisan migrate
    ```
-5. **Jalankan Server**
+7. **Jalankan Server**
    ```
    php artisan migrate
    ```
