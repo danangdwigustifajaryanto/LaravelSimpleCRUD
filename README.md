@@ -43,11 +43,7 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
    ```
    composer install
    ```
-3. **Duplikat File .env dan Atur Database**
-   ```
-   cp .env.example .env
-   ```
-   **Lalu edit file .env**
+3. **Edit file .env**
     ```
    DB_DATABASE=laravel_crud
    DB_USERNAME=root
