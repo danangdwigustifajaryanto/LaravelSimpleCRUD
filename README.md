@@ -3,7 +3,25 @@
 Ini adalah aplikasi web sederhana berbasis **Laravel** yang memiliki fitur lengkap **CRUD (Create, Read, Update, Delete)** untuk mengelola pesan pendek.
 Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi belajar konsep dasar **MVC dan Eloquent ORM**.
 
+![Laravel](https://img.shields.io/badge/Laravel-11.44.2-red?logo=laravel&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-2.8.8-blue?logo=composer&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.2.12-777bb3?logo=php&logoColor=white)
+![Status](https://img.shields.io/badge/Project-Dalam%20Proses-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 ![image](https://github.com/user-attachments/assets/499305f0-5306-4da7-97b4-9503b71cc6fe)
+
+---
+
+## 🗂️ Isi Repository
+
+Repository ini berisi beberapa versi project Laravel beserta tutorial dan dokumentasi pendukung untuk keperluan pembelajaran.
+
+1. ✅ Project Laravel versi **9**
+2. ✅ Project Laravel versi **11**
+3. 📘 Tutorial CRUD step by step
+4. 🛠️ Tutorial upgrade dari Laravel **9 ke Laravel 11**
+5. 🎨 Versi desain menggunakan **Bootstrap**
 
 ---
 
@@ -15,69 +33,66 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
 - ✅ Menghapus pesan (Delete)
 - 🧠 Menggunakan Blade Template (Dengan CSS dan JS Sederhana)
 - 🔧 Struktur rapi mengikuti pola MVC Laravel
-- 🌓Dark Mode
+- 🌓 Dark Mode
 
 ---
 
-## Isi Repository
-Repository ini berisi beberapa versi project Laravel beserta tutorial dan dokumentasi pendukung untuk keperluan pembelajaran.
+## 🛠 Project Setup (Laravel 11)
 
-1. ✅ Project Laravel versi **9**
-2. ✅ Project Laravel versi **11**
-3. 📘 Tutorial CRUD step by step
-4. 🛠️ Tutorial upgrade dari Laravel **9 ke Laravel 11**
-5. 🎨 Versi desain menggunakan **Bootstrap**
+Berikut adalah requirement dan tools yang digunakan untuk menjalankan project ini:
 
-## 🗂️ Struktur Folder
-
-| **Path / Folder**             | **Deskripsi**                                                 |
-|------------------------------|---------------------------------------------------------------|
-| `routes/web.php`             | Routing semua fitur (GET, POST, PUT, DELETE)                  |
-| `app/Http/Controllers/`      | Menyimpan `MessageController` yang menangani logika CRUD      |
-| `app/Models/Message.php`     | Model Eloquent yang mewakili tabel `messages` di database     |
-| `resources/views/`           | Menyimpan file Blade: `messages.blade.php`, `edit.blade.php`  |
-| `database/migrations/`       | File migration untuk membuat struktur tabel `messages`        |
-| `.env`                       | Konfigurasi database (nama DB, user, password, host, dll)     |
+- ⚙️ **Laravel Framework**: `11.44.2`
+- 🧰 **Composer**: `2.8.8 (2024-08-22)`
+- 🐘 **PHP (Apache)**: `8.2.12`
+- 📦 **XAMPP**: `Control Panel V3.3.0`
 
 ---
 
 ## 🚀 Cara Menjalankan Project
 
 1. **Clone Repository**
-   ```
+   ```bash
    git clone https://github.com/username/laravel-crud-pesan.git
    cd microteaching
    ```
-2. **Install Composer**
-   ```
+
+2. **Install Composer Dependencies**
+   ```bash
    composer install
    ```
-3. **Buat Database di MYSQL/etc.**
-   ```
+
+3. **Buat Database di MySQL**
+   ```sql
    CREATE DATABASE laravel_crud;
    ```
-4. **Buat Database dan edit .env**
-    ```
+
+4. **Edit File .env**
+   ```env
    DB_DATABASE=laravel_crud
    DB_USERNAME=root
    DB_PASSWORD=
    ```
-5. **Refresh Project**
-   ```
+
+5. **Refresh Project Config & Cache**
+   ```bash
    php artisan config:clear
    php artisan cache:clear
    php artisan route:clear
    php artisan view:clear
    php artisan optimize
    ```
+
 6. **Migrasi Database**
-   ```
+   ```bash
    php artisan migrate
    ```
-7. **Jalankan Server**
+
+7. **Jalankan Server Laravel**
+   ```bash
+   php artisan serve
    ```
-   php artisan migrate
-   ```
+
+---
 
 ## 🧠 Cara Kerja Aplikasi
 
@@ -91,22 +106,25 @@ Berikut adalah daftar routing utama yang digunakan pada aplikasi ini:
 | `/messages/{id}`         | PUT        | Menyimpan hasil edit pesan           |
 | `/messages/{id}`         | DELETE     | Menghapus pesan dari database        |
 
+---
+
 ## 📚 Tujuan Pembelajaran
+
 1. Memahami struktur MVC di Laravel
 2. Menggunakan Routing, Controller, dan View
 3. Mempraktikkan fitur CRUD secara menyeluruh
 4. Validasi input & interaksi dengan database Eloquent ORM
 
-![Laravel](https://img.shields.io/badge/Laravel-9.52.20-red?logo=laravel&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-2.8.8-blue?logo=composer&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.0.30-777bb3?logo=php&logoColor=white)
-![Status](https://img.shields.io/badge/Project-Selesai-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+---
 
 ## 📄 Lisensi
+
 Project ini open-source dan bebas digunakan untuk pembelajaran.
 
-## 🙌 Terima kasih sudah mampir ke project Laravel CRUD saya!
+---
+
+## 🙌 Terima Kasih!
+
 Kalau kamu merasa project ini bermanfaat, silakan di-fork, clone, atau kasih bintang ⭐.
 Selamat ngoding! 😄
->>>>>>> daa0d03e74a3806e1ad4ff15e21fa7c7357dbfac
+
