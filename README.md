@@ -3,15 +3,13 @@
 Ini adalah aplikasi web sederhana berbasis **Laravel** yang memiliki fitur lengkap **CRUD (Create, Read, Update, Delete)** untuk mengelola pesan pendek.
 Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi belajar konsep dasar **MVC dan Eloquent ORM**.
 
-[Full Guide](https://www.notion.so/Aplikasi-Laravel-CRUD-Pesan-Sederhana-1d7aac27279980c4b419ffbd53f3a92b)
-
 ![Laravel](https://img.shields.io/badge/Laravel-11.44.2-red?logo=laravel&logoColor=white)
 ![Composer](https://img.shields.io/badge/Composer-2.8.8-blue?logo=composer&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2.12-777bb3?logo=php&logoColor=white)
 ![Status](https://img.shields.io/badge/Project-Dalam%20Proses-yellow)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-![image](https://github.com/user-attachments/assets/499305f0-5306-4da7-97b4-9503b71cc6fe)
+![frame_chrome_mac_dark (2)](https://github.com/user-attachments/assets/d7e36bd8-9aec-4ce0-b1b3-02fe4d7e7be1)
 
 ---
 
