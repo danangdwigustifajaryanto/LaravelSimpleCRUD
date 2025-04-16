@@ -31,7 +31,7 @@ Repository ini berisi beberapa versi project Laravel beserta tutorial dan dokume
 - ✅ Menampilkan semua pesan (Read)
 - ✅ Mengedit isi pesan (Update)
 - ✅ Menghapus pesan (Delete)
-- ✅ API Integration
+- ✅ Simple API Integration
 - 🧠 Menggunakan Blade Template (Dengan CSS dan JS Sederhana)
 - 🔧 Struktur rapi mengikuti pola MVC Laravel
 - 🌓 Dark Mode
