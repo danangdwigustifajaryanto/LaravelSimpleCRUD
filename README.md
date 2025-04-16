@@ -19,6 +19,15 @@ Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi b
 
 ---
 
+## Isi Repository
+Repository ini berisi beberapa versi project Laravel beserta tutorial dan dokumentasi pendukung untuk keperluan pembelajaran.
+
+1. ✅ Project Laravel versi **9**
+2. ✅ Project Laravel versi **11**
+3. 📘 Tutorial CRUD step by step
+4. 🛠️ Tutorial upgrade dari Laravel **9 ke Laravel 11**
+5. 🎨 Versi desain menggunakan **Bootstrap**
+
 ## 🗂️ Struktur Folder
 
 | **Path / Folder**             | **Deskripsi**                                                 |
