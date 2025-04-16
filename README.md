@@ -3,6 +3,8 @@
 Ini adalah aplikasi web sederhana berbasis **Laravel** yang memiliki fitur lengkap **CRUD (Create, Read, Update, Delete)** untuk mengelola pesan pendek.
 Project ini cocok untuk latihan Laravel, tugas sekolah, kuliah, atau referensi belajar konsep dasar **MVC dan Eloquent ORM**.
 
+[Full Guide](https://www.notion.so/Aplikasi-Laravel-CRUD-Pesan-Sederhana-1d7aac27279980c4b419ffbd53f3a92b)
+
 ![Laravel](https://img.shields.io/badge/Laravel-11.44.2-red?logo=laravel&logoColor=white)
 ![Composer](https://img.shields.io/badge/Composer-2.8.8-blue?logo=composer&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.2.12-777bb3?logo=php&logoColor=white)
@@ -19,8 +21,8 @@ Repository ini berisi beberapa versi project Laravel beserta tutorial dan dokume
 
 1. ✅ Project Laravel versi **9**
 2. ✅ Project Laravel versi **11**
-3. 📘 Tutorial CRUD step by step
-4. 🛠️ Tutorial upgrade dari Laravel **9 ke Laravel 11**
+3. 📘 Tutorial CRUD step by step [Click Me](https://www.notion.so/Step-by-Step-CRUD-Laravel-Sederhana-1d7aac2727998095ab00f21a1d90bf98)
+4. 🛠️ Tutorial upgrade dari Laravel **9 ke Laravel 11** [Click Me](https://www.notion.so/Panduan-Upgrade-PHP-dan-Laravel-ke-Versi-11-Step-by-Step-1d7aac27279980c9a70bfcf2d438c9b7)
 5. 🎨 Versi desain menggunakan **Bootstrap**
 
 ---
